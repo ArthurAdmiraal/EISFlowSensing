@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="ElectrolyticSolution.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="189.73838"
+     inkscape:cy="197.67964"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-grids="false"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:snap-page="true"
+     inkscape:window-width="1440"
+     inkscape:window-height="801"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#00ccff;fill-opacity:0;fill-rule:nonzero;stroke:none"
+       id="rect3755"
+       width="348.57144"
+       height="226.42857"
+       x="0"
+       y="825.93359"
+       inkscape:export-filename="/Users/arthuradmiraal/Documents/RISA/Documentation/Renders/ElectrolyticSolution.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:cmss10;-inkscape-font-specification:cmss10"
+       x="50.714283"
+       y="853.79071"
+       id="text3763"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/arthuradmiraal/Documents/RISA/Documentation/Renders/ElectrolyticSolution.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan3765"
+         x="50.714283"
+         y="853.79071">Solvent</tspan></text>
+    <g
+       id="g3823"
+       transform="translate(69.195449,-79.296981)"
+       inkscape:export-filename="/Users/arthuradmiraal/Documents/RISA/Documentation/Renders/ElectrolyticSolution.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         transform="translate(-94.999996,65)"
+         d="M 195,917.36218 C 195,934.7197 180.92895,948.79075 163.57143,948.79075 146.21391,948.79075 132.14285,934.7197 132.14285,917.36218 132.14285,900.00466 146.21391,885.93361 163.57143,885.93361 180.92895,885.93361 195,900.00466 195,917.36218 z"
+         sodipodi:ry="31.428572"
+         sodipodi:rx="31.428572"
+         sodipodi:cy="917.36218"
+         sodipodi:cx="163.57143"
+         id="path2985"
+         style="fill:#0033cc;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         xml:space="preserve"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0033ff;fill-opacity:1;stroke:none;font-family:cmss10;-inkscape-font-specification:cmss10"
+         x="72.790184"
+         y="1022.3085"
+         id="text3807"
+         sodipodi:linespacing="125%"><tspan
+           style="font-size:180px;fill:#0033ff;fill-opacity:1"
+           sodipodi:role="line"
+           id="tspan3809"
+           x="72.790184"
+           y="1022.3085">-</tspan></text>
+    </g>
+    <g
+       id="g3818"
+       transform="translate(34.345186,-32.829958)"
+       inkscape:export-filename="/Users/arthuradmiraal/Documents/RISA/Documentation/Renders/ElectrolyticSolution.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ff6633;fill-opacity:1;stroke:none"
+         id="path3757"
+         sodipodi:cx="163.57143"
+         sodipodi:cy="917.36218"
+         sodipodi:rx="31.428572"
+         sodipodi:ry="31.428572"
+         d="M 195,917.36218 C 195,934.7197 180.92895,948.79075 163.57143,948.79075 146.21391,948.79075 132.14285,934.7197 132.14285,917.36218 132.14285,900.00466 146.21391,885.93361 163.57143,885.93361 180.92895,885.93361 195,900.00466 195,917.36218 z"
+         transform="translate(87.857147,-9.2857148)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3814"
+         y="925.57648"
+         x="251.44566"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#cc3333;fill-opacity:1;stroke:none;font-family:cmss10;-inkscape-font-specification:cmss10"
+         xml:space="preserve"><tspan
+           y="925.57648"
+           x="251.44566"
+           id="tspan3816"
+           sodipodi:role="line"
+           style="font-size:70px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#cc3333;fill-opacity:1;font-family:cmssbx10;-inkscape-font-specification:cmssbx10 Bold">+</tspan></text>
+    </g>
+    <g
+       id="g3850"
+       transform="translate(-182.8376,84.228655)"
+       inkscape:export-filename="/Users/arthuradmiraal/Documents/RISA/Documentation/Renders/ElectrolyticSolution.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         transform="translate(87.857147,-9.2857148)"
+         d="M 195,917.36218 C 195,934.7197 180.92895,948.79075 163.57143,948.79075 146.21391,948.79075 132.14285,934.7197 132.14285,917.36218 132.14285,900.00466 146.21391,885.93361 163.57143,885.93361 180.92895,885.93361 195,900.00466 195,917.36218 z"
+         sodipodi:ry="31.428572"
+         sodipodi:rx="31.428572"
+         sodipodi:cy="917.36218"
+         sodipodi:cx="163.57143"
+         id="path3852"
+         style="fill:#ff6633;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         xml:space="preserve"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#cc3333;fill-opacity:1;stroke:none;font-family:cmss10;-inkscape-font-specification:cmss10"
+         x="251.44566"
+         y="925.57648"
+         id="text3854"
+         sodipodi:linespacing="125%"><tspan
+           style="font-size:70px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#cc3333;fill-opacity:1;font-family:cmssbx10;-inkscape-font-specification:cmssbx10 Bold"
+           sodipodi:role="line"
+           id="tspan3856"
+           x="251.44566"
+           y="925.57648">+</tspan></text>
+    </g>
+    <g
+       id="g3866"
+       transform="translate(200.51528,17.677665)"
+       inkscape:export-filename="/Users/arthuradmiraal/Documents/RISA/Documentation/Renders/ElectrolyticSolution.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <path
+         sodipodi:type="arc"
+         style="fill:#0033cc;fill-opacity:1;stroke:none"
+         id="path3868"
+         sodipodi:cx="163.57143"
+         sodipodi:cy="917.36218"
+         sodipodi:rx="31.428572"
+         sodipodi:ry="31.428572"
+         d="M 195,917.36218 C 195,934.7197 180.92895,948.79075 163.57143,948.79075 146.21391,948.79075 132.14285,934.7197 132.14285,917.36218 132.14285,900.00466 146.21391,885.93361 163.57143,885.93361 180.92895,885.93361 195,900.00466 195,917.36218 z"
+         transform="translate(-94.999996,65)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3870"
+         y="1022.3085"
+         x="72.790184"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0033ff;fill-opacity:1;stroke:none;font-family:cmss10;-inkscape-font-specification:cmss10"
+         xml:space="preserve"><tspan
+           y="1022.3085"
+           x="72.790184"
+           id="tspan3872"
+           sodipodi:role="line"
+           style="font-size:180px;fill:#0033ff;fill-opacity:1">-</tspan></text>
+    </g>
+  </g>
+</svg>

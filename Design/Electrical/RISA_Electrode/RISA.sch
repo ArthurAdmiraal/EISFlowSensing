@@ -1,0 +1,1063 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:OwnParts
+LIBS:RISA-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 56C8970C
+P 15350 550
+F 0 "#PWR01" H 15350 300 50  0001 C CNN
+F 1 "GND" H 15350 400 50  0000 C CNN
+F 2 "" H 15350 550 50  0000 C CNN
+F 3 "" H 15350 550 50  0000 C CNN
+	1    15350 550 
+	1    0    0    -1  
+$EndComp
+Text GLabel 15600 700  1    60   Input ~ 0
+SIG
+$Comp
+L Electrode E1
+U 1 1 56C9DAC8
+P 7100 1750
+F 0 "E1" H 7200 1750 60  0000 C CNN
+F 1 "Electrode" H 7100 1850 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 1750 60  0001 C CNN
+F 3 "" H 7100 1750 60  0000 C CNN
+	1    7100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E2
+U 1 1 56C9E08E
+P 7100 4300
+F 0 "E2" H 7200 4300 60  0000 C CNN
+F 1 "Electrode" H 7100 4400 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 4300 60  0001 C CNN
+F 3 "" H 7100 4300 60  0000 C CNN
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E3
+U 1 1 56C9E4CA
+P 7100 1850
+F 0 "E3" H 7200 1850 60  0000 C CNN
+F 1 "Electrode" H 7100 1950 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 1850 60  0001 C CNN
+F 3 "" H 7100 1850 60  0000 C CNN
+	1    7100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E4
+U 1 1 56C9E4E3
+P 7100 4200
+F 0 "E4" H 7200 4200 60  0000 C CNN
+F 1 "Electrode" H 7100 4300 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 4200 60  0001 C CNN
+F 3 "" H 7100 4200 60  0000 C CNN
+	1    7100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E5
+U 1 1 56C9EE5C
+P 7100 2050
+F 0 "E5" H 7200 2050 60  0000 C CNN
+F 1 "Electrode" H 7100 2150 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 2050 60  0001 C CNN
+F 3 "" H 7100 2050 60  0000 C CNN
+	1    7100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E6
+U 1 1 56C9EE75
+P 7100 4400
+F 0 "E6" H 7200 4400 60  0000 C CNN
+F 1 "Electrode" H 7100 4500 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 4400 60  0001 C CNN
+F 3 "" H 7100 4400 60  0000 C CNN
+	1    7100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E7
+U 1 1 56C9EE8E
+P 7100 1950
+F 0 "E7" H 7200 1950 60  0000 C CNN
+F 1 "Electrode" H 7100 2050 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 1950 60  0001 C CNN
+F 3 "" H 7100 1950 60  0000 C CNN
+	1    7100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E8
+U 1 1 56C9EEA7
+P 7100 4500
+F 0 "E8" H 7200 4500 60  0000 C CNN
+F 1 "Electrode" H 7100 4600 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 4500 60  0001 C CNN
+F 3 "" H 7100 4500 60  0000 C CNN
+	1    7100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E9
+U 1 1 56C9FD55
+P 7100 4100
+F 0 "E9" H 7200 4100 60  0000 C CNN
+F 1 "Electrode" H 7100 4200 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 4100 60  0001 C CNN
+F 3 "" H 7100 4100 60  0000 C CNN
+	1    7100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E10
+U 1 1 56C9FD6E
+P 7100 1650
+F 0 "E10" H 7200 1650 60  0000 C CNN
+F 1 "Electrode" H 7100 1750 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 1650 60  0001 C CNN
+F 3 "" H 7100 1650 60  0000 C CNN
+	1    7100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E11
+U 1 1 56C9FD87
+P 7100 4000
+F 0 "E11" H 7200 4000 60  0000 C CNN
+F 1 "Electrode" H 7100 4100 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 4000 60  0001 C CNN
+F 3 "" H 7100 4000 60  0000 C CNN
+	1    7100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E12
+U 1 1 56C9FDA0
+P 7100 1550
+F 0 "E12" H 7200 1550 60  0000 C CNN
+F 1 "Electrode" H 7100 1650 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 1550 60  0001 C CNN
+F 3 "" H 7100 1550 60  0000 C CNN
+	1    7100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E13
+U 1 1 56C9FDB9
+P 7100 4700
+F 0 "E13" H 7200 4700 60  0000 C CNN
+F 1 "Electrode" H 7100 4800 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 4700 60  0001 C CNN
+F 3 "" H 7100 4700 60  0000 C CNN
+	1    7100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E14
+U 1 1 56C9FDD2
+P 7100 2250
+F 0 "E14" H 7200 2250 60  0000 C CNN
+F 1 "Electrode" H 7100 2350 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 2250 60  0001 C CNN
+F 3 "" H 7100 2250 60  0000 C CNN
+	1    7100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E15
+U 1 1 56C9FDEB
+P 7100 4600
+F 0 "E15" H 7200 4600 60  0000 C CNN
+F 1 "Electrode" H 7100 4700 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 4600 60  0001 C CNN
+F 3 "" H 7100 4600 60  0000 C CNN
+	1    7100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E16
+U 1 1 56C9FE04
+P 7100 2150
+F 0 "E16" H 7200 2150 60  0000 C CNN
+F 1 "Electrode" H 7100 2250 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 2150 60  0001 C CNN
+F 3 "" H 7100 2150 60  0000 C CNN
+	1    7100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E17
+U 1 1 56CA1F5D
+P 7100 1350
+F 0 "E17" H 7200 1350 60  0000 C CNN
+F 1 "Electrode" H 7100 1450 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 1350 60  0001 C CNN
+F 3 "" H 7100 1350 60  0000 C CNN
+	1    7100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E18
+U 1 1 56CA1F76
+P 7100 3900
+F 0 "E18" H 7200 3900 60  0000 C CNN
+F 1 "Electrode" H 7100 4000 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 3900 60  0001 C CNN
+F 3 "" H 7100 3900 60  0000 C CNN
+	1    7100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E19
+U 1 1 56CA1F8F
+P 7100 1450
+F 0 "E19" H 7200 1450 60  0000 C CNN
+F 1 "Electrode" H 7100 1550 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 1450 60  0001 C CNN
+F 3 "" H 7100 1450 60  0000 C CNN
+	1    7100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E20
+U 1 1 56CA1FA8
+P 7100 3800
+F 0 "E20" H 7200 3800 60  0000 C CNN
+F 1 "Electrode" H 7100 3900 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 3800 60  0001 C CNN
+F 3 "" H 7100 3800 60  0000 C CNN
+	1    7100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E21
+U 1 1 56CA1FC1
+P 7100 2450
+F 0 "E21" H 7200 2450 60  0000 C CNN
+F 1 "Electrode" H 7100 2550 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 2450 60  0001 C CNN
+F 3 "" H 7100 2450 60  0000 C CNN
+	1    7100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E22
+U 1 1 56CA1FDA
+P 7100 4800
+F 0 "E22" H 7200 4800 60  0000 C CNN
+F 1 "Electrode" H 7100 4900 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 4800 60  0001 C CNN
+F 3 "" H 7100 4800 60  0000 C CNN
+	1    7100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E23
+U 1 1 56CA1FF3
+P 7100 2350
+F 0 "E23" H 7200 2350 60  0000 C CNN
+F 1 "Electrode" H 7100 2450 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 2350 60  0001 C CNN
+F 3 "" H 7100 2350 60  0000 C CNN
+	1    7100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E24
+U 1 1 56CA200C
+P 7100 4900
+F 0 "E24" H 7200 4900 60  0000 C CNN
+F 1 "Electrode" H 7100 5000 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 4900 60  0001 C CNN
+F 3 "" H 7100 4900 60  0000 C CNN
+	1    7100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E25
+U 1 1 56CA2035
+P 7100 3700
+F 0 "E25" H 7200 3700 60  0000 C CNN
+F 1 "Electrode" H 7100 3800 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 3700 60  0001 C CNN
+F 3 "" H 7100 3700 60  0000 C CNN
+	1    7100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E26
+U 1 1 56CA204E
+P 7100 1250
+F 0 "E26" H 7200 1250 60  0000 C CNN
+F 1 "Electrode" H 7100 1350 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 1250 60  0001 C CNN
+F 3 "" H 7100 1250 60  0000 C CNN
+	1    7100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E27
+U 1 1 56CA2067
+P 7100 3600
+F 0 "E27" H 7200 3600 60  0000 C CNN
+F 1 "Electrode" H 7100 3700 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 3600 60  0001 C CNN
+F 3 "" H 7100 3600 60  0000 C CNN
+	1    7100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E28
+U 1 1 56CA2080
+P 7100 1150
+F 0 "E28" H 7200 1150 60  0000 C CNN
+F 1 "Electrode" H 7100 1250 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 1150 60  0001 C CNN
+F 3 "" H 7100 1150 60  0000 C CNN
+	1    7100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E29
+U 1 1 56CA2099
+P 7100 5100
+F 0 "E29" H 7200 5100 60  0000 C CNN
+F 1 "Electrode" H 7100 5200 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 5100 60  0001 C CNN
+F 3 "" H 7100 5100 60  0000 C CNN
+	1    7100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E30
+U 1 1 56CA20B2
+P 7100 2650
+F 0 "E30" H 7200 2650 60  0000 C CNN
+F 1 "Electrode" H 7100 2750 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 2650 60  0001 C CNN
+F 3 "" H 7100 2650 60  0000 C CNN
+	1    7100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E31
+U 1 1 56CA20CB
+P 7100 5000
+F 0 "E31" H 7200 5000 60  0000 C CNN
+F 1 "Electrode" H 7100 5100 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 5000 60  0001 C CNN
+F 3 "" H 7100 5000 60  0000 C CNN
+	1    7100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E32
+U 1 1 56CA20E4
+P 7100 2550
+F 0 "E32" H 7200 2550 60  0000 C CNN
+F 1 "Electrode" H 7100 2650 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 7100 2550 60  0001 C CNN
+F 3 "" H 7100 2550 60  0000 C CNN
+	1    7100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E33
+U 1 1 56CA348D
+P 4750 1750
+F 0 "E33" H 4850 1750 60  0000 C CNN
+F 1 "Electrode" H 4750 1850 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 1750 60  0001 C CNN
+F 3 "" H 4750 1750 60  0000 C CNN
+	1    4750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E34
+U 1 1 56CA34A6
+P 4750 4300
+F 0 "E34" H 4850 4300 60  0000 C CNN
+F 1 "Electrode" H 4750 4400 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 4300 60  0001 C CNN
+F 3 "" H 4750 4300 60  0000 C CNN
+	1    4750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E35
+U 1 1 56CA34BF
+P 4750 1850
+F 0 "E35" H 4850 1850 60  0000 C CNN
+F 1 "Electrode" H 4750 1950 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 1850 60  0001 C CNN
+F 3 "" H 4750 1850 60  0000 C CNN
+	1    4750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E36
+U 1 1 56CA34D8
+P 4750 4200
+F 0 "E36" H 4850 4200 60  0000 C CNN
+F 1 "Electrode" H 4750 4300 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 4200 60  0001 C CNN
+F 3 "" H 4750 4200 60  0000 C CNN
+	1    4750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E37
+U 1 1 56CA34F1
+P 4750 2050
+F 0 "E37" H 4850 2050 60  0000 C CNN
+F 1 "Electrode" H 4750 2150 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 2050 60  0001 C CNN
+F 3 "" H 4750 2050 60  0000 C CNN
+	1    4750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E38
+U 1 1 56CA350A
+P 4750 4400
+F 0 "E38" H 4850 4400 60  0000 C CNN
+F 1 "Electrode" H 4750 4500 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 4400 60  0001 C CNN
+F 3 "" H 4750 4400 60  0000 C CNN
+	1    4750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E39
+U 1 1 56CA3523
+P 4750 1950
+F 0 "E39" H 4850 1950 60  0000 C CNN
+F 1 "Electrode" H 4750 2050 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 1950 60  0001 C CNN
+F 3 "" H 4750 1950 60  0000 C CNN
+	1    4750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E40
+U 1 1 56CA353C
+P 4750 4500
+F 0 "E40" H 4850 4500 60  0000 C CNN
+F 1 "Electrode" H 4750 4600 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 4500 60  0001 C CNN
+F 3 "" H 4750 4500 60  0000 C CNN
+	1    4750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E41
+U 1 1 56CA3565
+P 4750 4100
+F 0 "E41" H 4850 4100 60  0000 C CNN
+F 1 "Electrode" H 4750 4200 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 4100 60  0001 C CNN
+F 3 "" H 4750 4100 60  0000 C CNN
+	1    4750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E42
+U 1 1 56CA357E
+P 4750 1650
+F 0 "E42" H 4850 1650 60  0000 C CNN
+F 1 "Electrode" H 4750 1750 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 1650 60  0001 C CNN
+F 3 "" H 4750 1650 60  0000 C CNN
+	1    4750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E43
+U 1 1 56CA3597
+P 4750 4000
+F 0 "E43" H 4850 4000 60  0000 C CNN
+F 1 "Electrode" H 4750 4100 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 4000 60  0001 C CNN
+F 3 "" H 4750 4000 60  0000 C CNN
+	1    4750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E44
+U 1 1 56CA35B0
+P 4750 1550
+F 0 "E44" H 4850 1550 60  0000 C CNN
+F 1 "Electrode" H 4750 1650 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 1550 60  0001 C CNN
+F 3 "" H 4750 1550 60  0000 C CNN
+	1    4750 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E45
+U 1 1 56CA35C9
+P 4750 4700
+F 0 "E45" H 4850 4700 60  0000 C CNN
+F 1 "Electrode" H 4750 4800 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 4700 60  0001 C CNN
+F 3 "" H 4750 4700 60  0000 C CNN
+	1    4750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E46
+U 1 1 56CA35E2
+P 4750 2250
+F 0 "E46" H 4850 2250 60  0000 C CNN
+F 1 "Electrode" H 4750 2350 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 2250 60  0001 C CNN
+F 3 "" H 4750 2250 60  0000 C CNN
+	1    4750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E47
+U 1 1 56CA35FB
+P 4750 4600
+F 0 "E47" H 4850 4600 60  0000 C CNN
+F 1 "Electrode" H 4750 4700 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 4600 60  0001 C CNN
+F 3 "" H 4750 4600 60  0000 C CNN
+	1    4750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E48
+U 1 1 56CA3614
+P 4750 2150
+F 0 "E48" H 4850 2150 60  0000 C CNN
+F 1 "Electrode" H 4750 2250 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 2150 60  0001 C CNN
+F 3 "" H 4750 2150 60  0000 C CNN
+	1    4750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E49
+U 1 1 56CA363D
+P 4750 1350
+F 0 "E49" H 4850 1350 60  0000 C CNN
+F 1 "Electrode" H 4750 1450 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 1350 60  0001 C CNN
+F 3 "" H 4750 1350 60  0000 C CNN
+	1    4750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E50
+U 1 1 56CA3656
+P 4750 3900
+F 0 "E50" H 4850 3900 60  0000 C CNN
+F 1 "Electrode" H 4750 4000 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 3900 60  0001 C CNN
+F 3 "" H 4750 3900 60  0000 C CNN
+	1    4750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E51
+U 1 1 56CA366F
+P 4750 1450
+F 0 "E51" H 4850 1450 60  0000 C CNN
+F 1 "Electrode" H 4750 1550 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 1450 60  0001 C CNN
+F 3 "" H 4750 1450 60  0000 C CNN
+	1    4750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E52
+U 1 1 56CA3688
+P 4750 3800
+F 0 "E52" H 4850 3800 60  0000 C CNN
+F 1 "Electrode" H 4750 3900 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 3800 60  0001 C CNN
+F 3 "" H 4750 3800 60  0000 C CNN
+	1    4750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E53
+U 1 1 56CA36A1
+P 4750 2450
+F 0 "E53" H 4850 2450 60  0000 C CNN
+F 1 "Electrode" H 4750 2550 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 2450 60  0001 C CNN
+F 3 "" H 4750 2450 60  0000 C CNN
+	1    4750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E54
+U 1 1 56CA36BA
+P 4750 4800
+F 0 "E54" H 4850 4800 60  0000 C CNN
+F 1 "Electrode" H 4750 4900 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 4800 60  0001 C CNN
+F 3 "" H 4750 4800 60  0000 C CNN
+	1    4750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E55
+U 1 1 56CA36D3
+P 4750 2350
+F 0 "E55" H 4850 2350 60  0000 C CNN
+F 1 "Electrode" H 4750 2450 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 2350 60  0001 C CNN
+F 3 "" H 4750 2350 60  0000 C CNN
+	1    4750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E56
+U 1 1 56CA36EC
+P 4750 4900
+F 0 "E56" H 4850 4900 60  0000 C CNN
+F 1 "Electrode" H 4750 5000 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 4900 60  0001 C CNN
+F 3 "" H 4750 4900 60  0000 C CNN
+	1    4750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E57
+U 1 1 56CA3715
+P 4750 3700
+F 0 "E57" H 4850 3700 60  0000 C CNN
+F 1 "Electrode" H 4750 3800 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 3700 60  0001 C CNN
+F 3 "" H 4750 3700 60  0000 C CNN
+	1    4750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E58
+U 1 1 56CA372E
+P 4750 1250
+F 0 "E58" H 4850 1250 60  0000 C CNN
+F 1 "Electrode" H 4750 1350 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 1250 60  0001 C CNN
+F 3 "" H 4750 1250 60  0000 C CNN
+	1    4750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E59
+U 1 1 56CA3747
+P 4750 3600
+F 0 "E59" H 4850 3600 60  0000 C CNN
+F 1 "Electrode" H 4750 3700 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 3600 60  0001 C CNN
+F 3 "" H 4750 3600 60  0000 C CNN
+	1    4750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E60
+U 1 1 56CA3760
+P 4750 1150
+F 0 "E60" H 4850 1150 60  0000 C CNN
+F 1 "Electrode" H 4750 1250 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 1150 60  0001 C CNN
+F 3 "" H 4750 1150 60  0000 C CNN
+	1    4750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E61
+U 1 1 56CA3779
+P 4750 5100
+F 0 "E61" H 4850 5100 60  0000 C CNN
+F 1 "Electrode" H 4750 5200 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 5100 60  0001 C CNN
+F 3 "" H 4750 5100 60  0000 C CNN
+	1    4750 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E62
+U 1 1 56CA3792
+P 4750 2650
+F 0 "E62" H 4850 2650 60  0000 C CNN
+F 1 "Electrode" H 4750 2750 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 2650 60  0001 C CNN
+F 3 "" H 4750 2650 60  0000 C CNN
+	1    4750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E63
+U 1 1 56CA37AB
+P 4750 5000
+F 0 "E63" H 4850 5000 60  0000 C CNN
+F 1 "Electrode" H 4750 5100 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 5000 60  0001 C CNN
+F 3 "" H 4750 5000 60  0000 C CNN
+	1    4750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electrode E64
+U 1 1 56CA37C4
+P 4750 2550
+F 0 "E64" H 4850 2550 60  0000 C CNN
+F 1 "Electrode" H 4750 2650 60  0001 C CNN
+F 2 "RISA:ElectrodePad" H 4750 2550 60  0001 C CNN
+F 3 "" H 4750 2550 60  0000 C CNN
+	1    4750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4067 U2
+U 1 1 570EA2AC
+P 6700 1300
+F 0 "U2" H 6500 750 60  0000 C CNN
+F 1 "4067" H 6500 850 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-24_7.5x15.4mm_Pitch1.27mm" H 6700 1300 60  0001 C CNN
+F 3 "" H 6700 1300 60  0000 C CNN
+	1    6700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4067 U1
+U 1 1 570F31CF
+P 6700 3750
+F 0 "U1" H 6500 3200 60  0000 C CNN
+F 1 "4067" H 6500 3300 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-24_7.5x15.4mm_Pitch1.27mm" H 6700 3750 60  0001 C CNN
+F 3 "" H 6700 3750 60  0000 C CNN
+	1    6700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 570FE066
+P 6550 5350
+F 0 "#PWR02" H 6550 5100 50  0001 C CNN
+F 1 "GND" H 6550 5200 50  0000 C CNN
+F 2 "" H 6550 5350 50  0000 C CNN
+F 3 "" H 6550 5350 50  0000 C CNN
+	1    6550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 570FE140
+P 6550 2900
+F 0 "#PWR03" H 6550 2650 50  0001 C CNN
+F 1 "GND" H 6550 2750 50  0000 C CNN
+F 2 "" H 6550 2900 50  0000 C CNN
+F 3 "" H 6550 2900 50  0000 C CNN
+	1    6550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 570FE42F
+P 6550 3350
+F 0 "#PWR04" H 6550 3200 50  0001 C CNN
+F 1 "+5V" H 6550 3490 50  0000 C CNN
+F 2 "" H 6550 3350 50  0000 C CNN
+F 3 "" H 6550 3350 50  0000 C CNN
+	1    6550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR05
+U 1 1 570FE54B
+P 6550 900
+F 0 "#PWR05" H 6550 750 50  0001 C CNN
+F 1 "+5V" H 6550 1040 50  0000 C CNN
+F 2 "" H 6550 900 50  0000 C CNN
+F 3 "" H 6550 900 50  0000 C CNN
+	1    6550 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4067 U3
+U 1 1 570FF634
+P 4350 1300
+F 0 "U3" H 4150 750 60  0000 C CNN
+F 1 "4067" H 4150 850 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-24_7.5x15.4mm_Pitch1.27mm" H 4350 1300 60  0001 C CNN
+F 3 "" H 4350 1300 60  0000 C CNN
+	1    4350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4067 U4
+U 1 1 570FF730
+P 4350 3750
+F 0 "U4" H 4150 3200 60  0000 C CNN
+F 1 "4067" H 4150 3300 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-24_7.5x15.4mm_Pitch1.27mm" H 4350 3750 60  0001 C CNN
+F 3 "" H 4350 3750 60  0000 C CNN
+	1    4350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 57108836
+P 4200 5350
+F 0 "#PWR06" H 4200 5100 50  0001 C CNN
+F 1 "GND" H 4200 5200 50  0000 C CNN
+F 2 "" H 4200 5350 50  0000 C CNN
+F 3 "" H 4200 5350 50  0000 C CNN
+	1    4200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 57108E19
+P 4200 2900
+F 0 "#PWR07" H 4200 2650 50  0001 C CNN
+F 1 "GND" H 4200 2750 50  0000 C CNN
+F 2 "" H 4200 2900 50  0000 C CNN
+F 3 "" H 4200 2900 50  0000 C CNN
+	1    4200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR08
+U 1 1 57108EF0
+P 4200 3350
+F 0 "#PWR08" H 4200 3200 50  0001 C CNN
+F 1 "+5V" H 4200 3490 50  0000 C CNN
+F 2 "" H 4200 3350 50  0000 C CNN
+F 3 "" H 4200 3350 50  0000 C CNN
+	1    4200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR09
+U 1 1 571092B3
+P 4200 900
+F 0 "#PWR09" H 4200 750 50  0001 C CNN
+F 1 "+5V" H 4200 1040 50  0000 C CNN
+F 2 "" H 4200 900 50  0000 C CNN
+F 3 "" H 4200 900 50  0000 C CNN
+	1    4200 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 6050 4600 0    60   Input ~ 0
+S0_A
+Text GLabel 6050 4700 0    60   Input ~ 0
+S1_A
+Text GLabel 6050 4800 0    60   Input ~ 0
+S2_A
+Text GLabel 6050 4900 0    60   Input ~ 0
+S3_A
+Wire Wire Line
+	6050 4600 6100 4600
+Wire Wire Line
+	6100 4700 6050 4700
+Wire Wire Line
+	6050 4800 6100 4800
+Wire Wire Line
+	6100 4900 6050 4900
+Wire Wire Line
+	3750 4600 3700 4600
+Wire Wire Line
+	3750 4700 3700 4700
+Wire Wire Line
+	3750 4800 3700 4800
+Wire Wire Line
+	3750 4900 3700 4900
+Wire Wire Line
+	3750 5100 3700 5100
+Wire Wire Line
+	6100 5100 6050 5100
+Text GLabel 3700 4900 0    60   Input ~ 0
+S3_A
+Text GLabel 3700 4800 0    60   Input ~ 0
+S2_A
+Text GLabel 3700 4700 0    60   Input ~ 0
+S1_A
+Text GLabel 3700 4600 0    60   Input ~ 0
+S0_A
+Text GLabel 3700 5100 0    60   Input ~ 0
+SELECT4
+Text GLabel 6050 5100 0    60   Input ~ 0
+SELECT1
+Text GLabel 6050 2150 0    60   Input ~ 0
+S0_B
+Text GLabel 6050 2250 0    60   Input ~ 0
+S1_B
+Text GLabel 6050 2350 0    60   Input ~ 0
+S2_B
+Text GLabel 6050 2450 0    60   Input ~ 0
+S3_B
+Text GLabel 6050 2650 0    60   Input ~ 0
+SELECT2
+Text GLabel 3700 2650 0    60   Input ~ 0
+SELECT3
+Text GLabel 3700 2450 0    60   Input ~ 0
+S3_B
+Text GLabel 3700 2350 0    60   Input ~ 0
+S2_B
+Text GLabel 3700 2250 0    60   Input ~ 0
+S1_B
+Text GLabel 3700 2150 0    60   Input ~ 0
+S0_B
+Wire Wire Line
+	3700 2650 3750 2650
+Wire Wire Line
+	3700 2450 3750 2450
+Wire Wire Line
+	3700 2350 3750 2350
+Wire Wire Line
+	3700 2250 3750 2250
+Wire Wire Line
+	3700 2150 3750 2150
+Wire Wire Line
+	6050 2150 6100 2150
+Wire Wire Line
+	6050 2250 6100 2250
+Wire Wire Line
+	6050 2350 6100 2350
+Wire Wire Line
+	6050 2450 6100 2450
+$Comp
+L CONN_01X16 P1
+U 1 1 5710F777
+P 9350 2450
+F 0 "P1" H 9350 3300 50  0000 C CNN
+F 1 "CONN_01X16" V 9450 2450 50  0000 C CNN
+F 2 "RISA:SMT_HEADER_1x16" H 9350 2450 50  0001 C CNN
+F 3 "" H 9350 2450 50  0000 C CNN
+	1    9350 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2650 6100 2650
+Wire Wire Line
+	6050 1150 6100 1150
+Wire Wire Line
+	3700 1150 3750 1150
+Wire Wire Line
+	3700 3600 3750 3600
+Wire Wire Line
+	6050 3600 6100 3600
+Text GLabel 9150 3200 0    60   Input ~ 0
+SELECT2
+Text GLabel 9150 3100 0    60   Input ~ 0
+SELECT3
+Text GLabel 9150 3000 0    60   Input ~ 0
+S3_B
+Text GLabel 9150 2900 0    60   Input ~ 0
+S2_B
+Text GLabel 9150 2800 0    60   Input ~ 0
+S1_B
+Text GLabel 9150 2700 0    60   Input ~ 0
+S0_B
+Text GLabel 3700 1150 0    60   Input ~ 0
+INPUT_B
+Text GLabel 6050 3600 0    60   Input ~ 0
+INPUT_A
+Text GLabel 6050 1150 0    60   Input ~ 0
+INPUT_B
+Text GLabel 3700 3600 0    60   Input ~ 0
+INPUT_A
+Text GLabel 9150 2600 0    60   Input ~ 0
+INPUT_B
+Text GLabel 9150 2200 0    60   Input ~ 0
+SELECT4
+Text GLabel 9150 1800 0    60   Input ~ 0
+S0_A
+Text GLabel 9150 1700 0    60   Input ~ 0
+S1_A
+Text GLabel 9150 2300 0    60   Input ~ 0
+SELECT1
+Text GLabel 9150 1900 0    60   Input ~ 0
+INPUT_A
+Text GLabel 9150 2000 0    60   Input ~ 0
+S2_A
+Text GLabel 9150 2100 0    60   Input ~ 0
+S3_A
+$Comp
+L +5V #PWR?
+U 1 1 571042DB
+P 8600 2350
+F 0 "#PWR?" H 8600 2200 50  0001 C CNN
+F 1 "+5V" H 8600 2490 50  0000 C CNN
+F 2 "" H 8600 2350 50  0000 C CNN
+F 3 "" H 8600 2350 50  0000 C CNN
+	1    8600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 571043B5
+P 8600 2550
+F 0 "#PWR?" H 8600 2300 50  0001 C CNN
+F 1 "GND" H 8600 2400 50  0000 C CNN
+F 2 "" H 8600 2550 50  0000 C CNN
+F 3 "" H 8600 2550 50  0000 C CNN
+	1    8600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 2400 8600 2400
+Wire Wire Line
+	8600 2400 8600 2350
+Wire Wire Line
+	9150 2500 8600 2500
+Wire Wire Line
+	8600 2500 8600 2550
+Text Notes 7450 3700 0    60   ~ 0
+Note: on the 4067 S2 and S3 are swapped!
+$EndSCHEMATC

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NTJD5121
+D Transistor dual N-MOSFET (general)
+K nmos n-mos n-mosfet transistor dual
+$ENDCMP
+#
+$CMP Q_NMOS_GDS
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+#End Doc Library
