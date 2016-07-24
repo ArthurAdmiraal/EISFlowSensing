@@ -2,6 +2,9 @@
 $fs = 0.05;
 $fa = 2;
 
+// CAM parameters
+split = 10;
+
 // parameters
 margin          = 1.2;              // 1.2mm
 topBevel        = 0.1*25.4;         // 0.1"
@@ -44,7 +47,8 @@ module torus(rminor, rmajor) {
 }
 
 // building the object
-difference() {
+// change intersection to difference for the bottom part
+intersection() { difference() {
 translate([0,0,-topBevel]) union() {
 ////////////////////////////////////////////////////////////
 // top /////////////////////////////////////////////////////
@@ -297,6 +301,14 @@ translate(-[0,0,height+hubRadius-hubHeight]) rotate([0,90,0])
 cylinder(r=hubRadius, h=hubWidth, center=true);
 translate(-[0,0,height-0.5*(hubHeight-hubRadius)])
 cube([hubWidth, 2*hubRadius, hubHeight-hubRadius+1], center=true);
+}
+// domain
+translate([-1.1*(electrodeSize+margin+2*topBevel)/2,
+            -1.1*(electrodeSize+margin+2*topBevel)/2,
+            -(height+split)])
+cube([1.1*(electrodeSize+margin+2*topBevel),
+      1.1*(electrodeSize+margin+2*topBevel+extension),
+      height]);
 }
 
 
